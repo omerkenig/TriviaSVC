@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<environment>
+  <BrowserType>firefox</BrowserType> 
+  <URL>http://automationpractice.com/index.php</URL>  
+
+  <WaitTime>10</WaitTime>
+  <ImageRepositoryPath>C:/test/InfraDemo/ImageRepository/</ImageRepositoryPath>
+  <IEDriverPath>D:\Jar\IEDriverServer.exe</IEDriverPath>
+  <ChromeDriverPath>D:\Jars\chromedriver.exe</ChromeDriverPath>
+  <FFDriverPath>D:\Jars\geckodriver.exe</FFDriverPath>
+  
+  
+  
+  <!-- Report - Logger -->
+  <TimeStampTemplate>yyyy-MM-dd_HH-mm-ss</TimeStampTemplate>
+  <LogFileName>ExecutionLog.txt</LogFileName>
+  <ReportFilePath>C:/Test/InfraDemo/</ReportFilePath>
+  <ReportFileName>ExtentReport.html</ReportFileName>
+
+</environment>
